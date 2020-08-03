@@ -51,7 +51,6 @@
                // 
                // toolTip1
                // 
-               this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup_1);
                // 
                // label1
                // 

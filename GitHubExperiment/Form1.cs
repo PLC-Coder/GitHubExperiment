@@ -17,16 +17,6 @@ namespace GitHubExperiment
                InitializeComponent();
           }
 
-          private void toolTip1_Popup(object sender, PopupEventArgs e)
-          {
-
-          }
-
-          private void toolTip1_Popup_1(object sender, PopupEventArgs e)
-          {
-
-          }
-
           private void button1_Click(object sender, EventArgs e)
           {
                label1.Text = "Welcome to GitHub and Git.\nThis program will show some examples of using the repositories\n" +
