@@ -16,5 +16,37 @@ namespace GitHubExperiment
           {
                InitializeComponent();
           }
+
+          private void toolTip1_Popup(object sender, PopupEventArgs e)
+          {
+
+          }
+
+          private void toolTip1_Popup_1(object sender, PopupEventArgs e)
+          {
+
+          }
+
+          private void button1_Click(object sender, EventArgs e)
+          {
+               label1.Text = "Welcome to GitHub and Git.\nThis program will show some examples of using the repositories\n" +
+                    "and interfacing Git and GitHub with Visual Studio\n" +
+                    "Enjoy learning!";
+               pictureBox1.Show();
+               timer1.Stop();
+               timer1.Start();
+          }
+
+          private void timer1_Tick(object sender, EventArgs e)
+          {
+               label1.Text = "";
+               pictureBox1.Hide();
+          }
+
+          private void Form1_Load(object sender, EventArgs e)
+          {
+               label1.Text = "";
+               pictureBox1.Hide();
+          }
      }
 }
