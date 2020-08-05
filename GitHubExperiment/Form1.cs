@@ -22,8 +22,7 @@ namespace GitHubExperiment
                label1.Text = "Welcome to GitHub and Git.\nThis program will show some examples of using the repositories\n" +
                     "and interfacing Git and GitHub with Visual Studio\n" +
                     "Enjoy learning!\n" +
-                    "About Branches and More in Github\n" +
-                    "This will be an awesome learning experience!";
+                    "About Branches and More in Github";
                pictureBox1.Show();
                timer1.Stop();
                timer1.Start();
